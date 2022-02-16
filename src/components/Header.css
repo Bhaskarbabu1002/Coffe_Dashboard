@@ -1,0 +1,13 @@
+.pre_header{
+    
+    color: #fff;
+}
+.pre_header .nav-link {
+    color: #fff !important;
+    padding-right: 1.0rem !important;
+    padding-left: 0.5rem !important;
+}
+#navbar-main {
+    padding: 30px;
+    margin-bottom: 20px;
+}
