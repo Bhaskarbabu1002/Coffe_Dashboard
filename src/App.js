@@ -23,12 +23,12 @@ function App() {
       <PreHeader/>
       <Header/>
       </div>
-                <div className="">
+            <div className="">
             <div className="table-card " >
               <div className="d-flex ">
-                <div className="d-flex ">
-                  <div>  <p className="mb-0 bg-secondary px-2 font-weight-bold">Time : 02:43</p></div>
-              <div>  <p className="mb-0 bg-secondary ml-3 px-2 font-weight-bold">Date : 15/02/2022</p></div>         
+                <div className="d-flex ml-5">
+                  <div>  <p className="mb-0 bg-light px-2 font-weight-bold">Time : 02:43</p></div>
+              <div>  <p className="mb-0 bg-light ml-3 px-2 font-weight-bold">Date : 15/02/2022</p></div>         
                 </div>
               </div>
               <div className="heading text-center">

@@ -23,7 +23,7 @@ const Header = () => {
    
   <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
         <Container fluid>
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav">
         <li className="nav-item ">
           <a className="nav-link" href="#">Admin </a>
         </li>
