@@ -1,0 +1,26 @@
+.post_head {
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-left: 20rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.post_head p, h6 {
+    margin-bottom: 0 !important;
+    padding: 6px 15px;
+}
+.post_head h6 {
+    color: rgb(209 12 12);
+    font-weight: 700;
+}
+@media (max-width: 767.98px) { 
+    .post_head {
+        background-color: #f1f1f1;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-left: unset;
+    }
+}

@@ -19,18 +19,24 @@ import {
 const Header = () => {
   return (
     <>
-    <div className='pre_header'>
+    <div className='post_header'>
    
   <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
         <Container fluid>
         <ul className="navbar-nav">
         <li className="nav-item ">
-          <a className="nav-link" href="#">Admin </a>
+          <a className="nav-link" href="#">
+          <select className="">
+         <option className="">Admin</option>
+         <option className="">Admin</option>
+         <option className="">Admin</option>
+      </select>
+          </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Coffe Web</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item active ">
           <a className="nav-link" href="#">Coffe Quotes</a>
         </li>
         <li className="nav-item">
@@ -46,7 +52,12 @@ const Header = () => {
           <a className="nav-link" href="#">Global Freight Rates</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Global Trade Box</a>
+          <a className="nav-link" href="#">
+          <select className="">
+         <option className="">Global Trade Box</option>
+         <option className="">Global Trade Box</option>
+         <option className="">Global Trade Box</option>
+      </select></a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Support</a>

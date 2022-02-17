@@ -1,13 +1,23 @@
-.pre_header{
-    
-    color: #fff;
+.post_header{
+    background-color: #f1f1f1;
+    color: #000;
 }
-.pre_header .nav-link {
-    color: #fff !important;
+.post_header .nav-link {
+    color: #545454 !important;
     padding-right: 1.0rem !important;
     padding-left: 0.5rem !important;
+    font-weight: 700;
+}
+.post_header .nav-link:hover{
+    color: #1171ef !important;
 }
 #navbar-main {
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 20px;
+}
+select {
+    border: unset !important;
+    background-color: transparent !important;
+    color: #545454 !important;
+    font-weight: 700 !important;
 }

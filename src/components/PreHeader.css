@@ -1,0 +1,10 @@
+.pre_header {
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+.navbar-brand {
+font-size: 40px !important;
+}
+.navbar-brand img {
+    width: 55px;
+    height: 55px;
+}
