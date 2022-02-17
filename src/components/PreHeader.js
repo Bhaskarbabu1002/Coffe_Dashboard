@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "./logo192.png";
+import Logo from "../Icons/CoffeeWeb_Logo.png";
 import SIcon from "../Icons/S_Icon.png";
 import Notification from "../Icons/Notification_Icon.png";
 import PowerIcon from "../Icons/Power_Icon.png";
@@ -10,8 +10,7 @@ const PreHeader = () => {
     <div className='pre_header'>
          <nav className="navbar navbar-expand-lg">
          <div className="navbar-brand text-white font-weight-bold" href="#">
-        <img src={Logo} width={30} height={30} className="d-inline-block align-top" alt="" />
-        CoffeWeb
+        <img src={Logo} className="d-inline-block align-top" alt="" />
       </div>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" />

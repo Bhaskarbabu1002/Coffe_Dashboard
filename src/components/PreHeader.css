@@ -5,8 +5,8 @@
 font-size: 40px !important;
 }
 .navbar-brand img {
-    width: 55px;
-    height: 55px;
+    width: 355px;
+    object-fit: cover;
 }
 .pre_header .navbar {
     padding: 5px 70px !important;
