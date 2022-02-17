@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,10 +35,10 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .table thead th {
-  background-color: #1171ef;
+  background-color: #147aff;
 }
 /* .header {
   background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
@@ -50,12 +50,19 @@
 a {
   color: #fff;
 }
+.table {
+  margin-bottom: 0rem !important;
+}
 .table td, th {
   padding: 0.25rem !important;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
   font-weight: 500;
+ 
 }
+/* .table td {
+  text-align: left !important;
+} */
 .form-control {
   display: block;
   width: auto !important;
@@ -74,11 +81,24 @@ a {
 .work-forms {
   width: 130px !important;
   padding: 0rem 0.75rem !important;
+  height: 32px !important;
 }
 .table-card {
   margin-left: 25px;
   margin-right: 25px;
 }
+.table-card .row {
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
 select:focus{
 outline: unset;
+}
+.heading {
+  background-color: rgba(0,0,0,.05);
+  padding: 23px 0px 5px;
+}
+.contract {
+  text-align: left !important;
+  
 }

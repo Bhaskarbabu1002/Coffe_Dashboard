@@ -30,21 +30,21 @@ function App() {
             <div className="">
             <div className="table-card ">
               {/* <div className="d-flex"> */}
-  <div class="row">
+  <div class="row heading">
     <div class="col-sm">
     <div className="d-flex ml-5">
-                  <div>  <p className="mb-0 bg-light px-2 font-weight-bold">Time : {`${date.getHours()}:${date.getMinutes()}`}</p></div>
-              <div>  <p className="mb-0 bg-light ml-3 px-2 font-weight-bold">Date : {`${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`}</p></div>         
+                  <div>  <p className="mb-0 bg-white px-2 font-weight-bold">Time : {`${date.getHours()}:${date.getMinutes()}`}</p></div>
+              <div>  <p className="mb-0 bg-white ml-3 px-2 font-weight-bold">Date : {`${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`}</p></div>         
                 </div>
     </div>
     <div class="col-sm">
-    <div className="heading text-center">
+    <div className=" text-center">
                   <p className="font-weight-bold pl-5 mb-0">ROBUSTA MARKET</p>
                 </div>
     </div>
     <div class="col-sm">
     <div className="d-flex justify-content-end">
-                <select className="form-control border border-secondary font-weight-bold">
+                <select className="form-control border border-secondary bg-white font-weight-bold">
          <option className="">RM</option>
          <option className="">RM</option>
          <option className="">RM</option>
@@ -62,7 +62,7 @@ function App() {
    
               {/* </div> */}
             
-      <div className="mb-2">   
+      <div className="">   
       <Table className="table table-striped align-items-center table-flush" responsive>
       <thead className=" font-weight-bold">
     <tr className="text-white">
@@ -136,7 +136,7 @@ function App() {
     // console.log("mP",item);
       return ( 
         <tr>
-        <td>{item.displayName}</td> 
+        <td className="contract">{item.displayName}</td> 
         <td>{item.last}</td> 
         <td>{item.change}</td> 
         <td>{item.percentage}</td>
@@ -156,7 +156,7 @@ function App() {
       )})}                                                              
   </tbody>
 </Table></div>
-<div className="mb-2">
+<div className="">
 <div className="heading text-center">
                   <p className="font-weight-bold pl-5 mb-0">ARABICA MARKET</p>
                 </div><Table className="table table-striped align-items-center table-flush" responsive>
@@ -182,7 +182,7 @@ function App() {
   </thead>
   <tbody>
     <tr>
-      <td>KCZ-21(DEC-21)</td>
+      <td className="contract">KCZ-21(DEC-21)</td>
       <td>193.45</td>
       <td>0.00</td>
       <td>0</td>
@@ -200,7 +200,7 @@ function App() {
       <td>10/07/2021</td>
     </tr>
     <tr>
-      <td>KCH-22(MAR-22)</td>
+      <td className="contract">KCH-22(MAR-22)</td>
       <td>196.4</td>
       <td>0.0</td>
       <td>0</td>
@@ -219,6 +219,24 @@ function App() {
      
     </tr>
     <tr>
+      <td className="contract">KCK-22(MAY-22)</td>
+      <td>197.55</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>1677</td>
+      <td>199</td>
+      <td>196.1</td>
+      <td>196.85</td>
+      <td>197.55</td>
+      <td>47220</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10/07/2021</td>
+      <td>10/07/2021</td>
+    </tr>
+    {/* <tr>
       <td>KCK-22(MAY-22)</td>
       <td>197.55</td>
       <td>0.00</td>
@@ -236,9 +254,27 @@ function App() {
       <td>10/07/2021</td>
       <td>10/07/2021</td>
     </tr>
+    <tr>
+      <td>KCK-22(MAY-22)</td>
+      <td>197.55</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>1677</td>
+      <td>199</td>
+      <td>196.1</td>
+      <td>196.85</td>
+      <td>197.55</td>
+      <td>47220</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10/07/2021</td>
+      <td>10/07/2021</td>
+    </tr> */}
   </tbody>
 </Table></div>
-<div className="mb-2">
+<div className="">
 <div className="heading text-center">
                   <p className="font-weight-bold pl-5 mb-0">WRKBOOK FOR ROBUSTA</p>
                 </div>
@@ -263,7 +299,7 @@ function App() {
   </thead>
   <tbody>
     <tr>
-      <td>RMX-21(NOV-21)</td>
+      <td className="contract">RMX-21(NOV-21)</td>
       <td>2116</td>
       <td>0</td>
       <td>0</td>
@@ -295,7 +331,7 @@ function App() {
       <td>0</td>
     </tr>
     <tr>
-      <td>RMX-21(NOV-21)</td>
+      <td className="contract">RMX-21(NOV-21)</td>
       <td>2116</td>
       <td>0</td>
       <td>0</td>
@@ -327,6 +363,7 @@ function App() {
       <td>0</td>
      
     </tr>
+    
     {/* <tr>
       <th scope="row">3</th>
       <td>Larry</td>
