@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className='footer text-left'>
-        @Copyright <b>CoffeWeb</b>.All Rights Reserved
+        @Copyright <b>CoffeeWeb</b>.All Rights Reserved
     </div>
   )
 }

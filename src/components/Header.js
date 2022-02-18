@@ -34,16 +34,16 @@ const Header = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Coffe Web</a>
+          <a className="nav-link" href="#">Coffee Web</a>
         </li>
         <li className="nav-item active ">
-          <a className="nav-link" href="#">Coffe Quotes</a>
+          <a className="nav-link" href="#">Coffee Quotes</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Coffe News Feeds</a>
+          <a className="nav-link" href="#">Coffee News Feeds</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Global Raw Coffe Prices</a>
+          <a className="nav-link" href="#">Global Raw Coffee Prices</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Global Differentials</a>

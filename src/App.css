@@ -54,7 +54,7 @@ a {
   margin-bottom: 0rem !important;
 }
 .table td, th {
-  padding: 0.25rem !important;
+  padding: 0.25rem 0.75rem!important;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
   font-weight: 500;
@@ -75,13 +75,23 @@ a {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: unset !important;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da !important;
+  outline: none !important;
+  box-shadow: unset !important;
+}
 .work-forms {
-  width: 130px !important;
+  width: 118px !important;
   padding: 0rem 0.75rem !important;
-  height: 32px !important;
+  height: 28px !important;
+}
+.work-forms:focus{
+  outline: none;
 }
 .table-card {
   margin-left: 25px;

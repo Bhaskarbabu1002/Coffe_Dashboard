@@ -66,7 +66,7 @@ function App() {
       <Table className="table table-striped align-items-center table-flush" responsive>
       <thead className=" font-weight-bold">
     <tr className="text-white">
-       <th scope="col">Contract</th>
+       <th scope="col"><span className="pr-5">Contract</span></th>
       <th scope="col">Last</th>
       <th scope="col">Chg</th>
       <th scope="col">%</th>
@@ -162,7 +162,7 @@ function App() {
                 </div><Table className="table table-striped align-items-center table-flush" responsive>
       <thead className="">
     <tr className="text-white">
-      <th scope="col">Contract</th>
+      <th scope="col"><span className="pr-5">Contract</span></th>
       <th scope="col">Last</th>
       <th scope="col">Chg</th>
       <th scope="col">%</th>
@@ -276,12 +276,12 @@ function App() {
 </Table></div>
 <div className="">
 <div className="heading text-center">
-                  <p className="font-weight-bold pl-5 mb-0">WRKBOOK FOR ROBUSTA</p>
+                  <p className="font-weight-bold pl-5 mb-0">WORKBOOK FOR ROBUSTA</p>
                 </div>
                 <Table className="table table-striped align-items-center table-flush" responsive>
       <thead className="">
     <tr className="text-white">
-      <th scope="col">Contract</th>
+      <th scope="col"><span className="pr-3">Contract</span></th>
       <th scope="col">Last</th>
       <th scope="col">Chg</th>
       <th scope="col">Net Price</th>
