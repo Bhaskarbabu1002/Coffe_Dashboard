@@ -20,7 +20,6 @@ const Header = () => {
   return (
     <>
     <div className='post_header'>
-   
   <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
         <Container fluid>
         <ul className="navbar-nav">
