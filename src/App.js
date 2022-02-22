@@ -44,13 +44,13 @@ function App() {
     </div>
     <div class="col-sm">
     <div className="d-flex justify-content-end">
-                <select className="form-control border border-secondary bg-white font-weight-bold">
+                <select className="form-control font-weight-bold">
          <option className="">RM</option>
          <option className="">RM</option>
          <option className="">RM</option>
       </select>
       <div className="form-group mx-sm-3 mb-2">
-          <input type="text" className="form-control" id="inputPassword2" placeholder="RMU21" />
+          <input type="text" className="form-control text-white" id="inputPassword2" placeholder="RMU21" />
         </div>
         <button type="submit" className="btn btn-primary mb-2">Add</button>
                 </div>

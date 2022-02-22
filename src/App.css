@@ -72,18 +72,44 @@ a {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  /* background-color: #fff; */
   background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: unset !important;
+  /* border: 1px solid #147aff !important; */
+  color: #fff !important;
+  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+   border-color: #80bdff !important;
+  border-radius: 0.35rem !important;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
 }
 .form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  border-color: #ced4da !important;
+  color: #fff !important;
+  background-color: #80bdff !important;
+   border-color: #80bdff !important;
+  /* border-color: #ced4da !important; */
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px !important;
   outline: none !important;
-  box-shadow: unset !important;
+}
+input::placeholder {
+  color: rgb(255, 255, 255) !important;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.form-control::placeholder {
+  opacity: 1;
+}
+.btn-primary {
+  font-weight: 700 !important;
+  background: linear-gradient(87deg, #00d8ff 0, #2583ff 100%) !important;
+  border-color: #80bdff !important;
+  border-radius: 0.35rem !important;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out ;
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+  color: #fff;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px !important;
 }
 .work-forms {
   width: 118px !important;
