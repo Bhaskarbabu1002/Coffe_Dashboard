@@ -8,7 +8,7 @@ import CountrySelection from './CountrySelection';
 const PreHeader = () => {
   return (
     <div className='pre_header'>
-         <nav className="navbar navbar-expand-lg">
+         <nav className="navbar navbar-expand-lg fixed-top pre_header-bg">
          <div className="navbar-brand text-white font-weight-bold" href="#">
         <img src={Logo} className="d-inline-block align-top" alt="" />
       </div>

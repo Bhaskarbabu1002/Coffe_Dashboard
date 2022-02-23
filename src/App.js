@@ -37,12 +37,13 @@ function App() {
               <div>  <p className="mb-0 bg-white ml-3 px-2 font-weight-bold">Date : {`${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`}</p></div>         
                 </div>
     </div>
+    <div></div>
     <div class="col-sm">
-    <div className=" text-center">
+                 <div className=" text-center">
                   <p className="font-weight-bold pl-5 mb-0">ROBUSTA MARKET</p>
                 </div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm d-">
     <div className="d-flex justify-content-end">
                 <select className="form-control font-weight-bold">
          <option className="">RM</option>

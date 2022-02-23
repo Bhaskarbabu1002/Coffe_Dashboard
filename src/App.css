@@ -38,7 +38,7 @@
 } */
 
 .table thead th {
-  background-color: #147aff;
+  background-color: #1171ef;
 }
 /* .header {
   background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
@@ -54,7 +54,7 @@ a {
   margin-bottom: 0rem !important;
 }
 .table td, th {
-  padding: 0.25rem 0.75rem!important;
+  padding: 0.25rem 0.25rem!important;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
   font-weight: 500;
@@ -92,8 +92,8 @@ a {
 }
 input::placeholder {
   color: rgb(255, 255, 255) !important;
-  font-size: 1.2em;
-  font-style: italic;
+  font-size: 14px;
+  /* font-style: italic; */
 }
 .form-control::placeholder {
   opacity: 1;
