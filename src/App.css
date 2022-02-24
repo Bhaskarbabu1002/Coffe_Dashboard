@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -38,7 +39,9 @@
 } */
 
 .table thead th {
-  background-color: #1171ef;
+  background-color: #3498db !important;
+  font-size: 13px;
+    font-weight: bold;
 }
 /* .header {
   background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
@@ -52,13 +55,14 @@ a {
 }
 .table {
   margin-bottom: 0rem !important;
+  /* font-size: 14px !important; */
 }
 .table td, th {
-  padding: 0.25rem 0.25rem!important;
+  padding: 0.2rem 0.2rem!important;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
   font-weight: 500;
- 
+  border-bottom-width: 0px !important;
 }
 /* .table td {
   text-align: left !important;
@@ -75,29 +79,33 @@ a {
   /* background-color: #fff; */
   background-clip: padding-box;
   /* border: 1px solid #147aff !important; */
-  color: #fff !important;
-  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+  /* background: linear-gradient(39deg, #979797 0, #d5d5d5 100%) !important; */
+  background: linear-gradient(39deg, #60dfe5 0, #d7d7d7 100%) !important;
+    border-color: #bed9f5 !important;
+  /* color: #fff !important;
+  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important; */
    border-color: #80bdff !important;
   border-radius: 0.35rem !important;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+  /* box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px; */
 }
 .form-control:focus {
-  color: #fff !important;
-  background-color: #80bdff !important;
+  color: rgb(0, 0, 0) !important;
+  /* background-color: #80bdff !important; */
    border-color: #80bdff !important;
   /* border-color: #ced4da !important; */
-  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px !important;
+  /* box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px !important; */
   outline: none !important;
+  box-shadow: unset !important;
 }
 input::placeholder {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
   font-size: 14px;
   /* font-style: italic; */
 }
-.form-control::placeholder {
+/* .form-control::placeholder {
   opacity: 1;
-}
+} */
 .btn-primary {
   font-weight: 700 !important;
   background: linear-gradient(87deg, #00d8ff 0, #2583ff 100%) !important;
@@ -112,9 +120,9 @@ input::placeholder {
   box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px !important;
 }
 .work-forms {
-  width: 118px !important;
-  padding: 0rem 0.75rem !important;
-  height: 28px !important;
+  width: 85px !important;
+  padding: 0rem 0.25rem !important;
+  height: 26px !important;
 }
 .work-forms:focus{
   outline: none;
@@ -122,7 +130,8 @@ input::placeholder {
 .table-card {
   margin-left: 25px;
   margin-right: 25px;
-  border: 1px solid #dee2e6;
+  border: 1px solid #c9c6c6;
+  /* font-size: 14px; */
 }
 .table-card .row {
   margin-right: 0rem;
@@ -134,8 +143,42 @@ outline: unset;
 .heading {
   background-color: rgba(0,0,0,.05);
   padding: 14px 0px 5px;
+  align-items: center;
 }
 .contract {
   text-align: left !important;
+    font-weight: 600 !important;
+    font-size: 14px;
+}
+.delete-icon path{
+  border: 2px solid red;
+  stroke: #ff0000;
+fill: #ff0000;
+}
+.zero {
+  font-weight: 600;
+}
+.main_heading {
+  /* font-size: 15px; */
+  font-weight: 600 !important;
+  font-family: 'Poppins';
+}
+.form-group  {
+  display: flex;
+  justify-content: center;
+}
+.first-heading {
+  background-color: rgba(0,0,0,.05);
+  padding: 5px 0px 5px;
+  align-items: center;
+}
+.select-form {
+  border: 1px solid #fff !important;
+  background-color: #fff !important;
   
+  margin-left: 5px;
+
+}
+svg {
+  cursor: pointer !important;
 }

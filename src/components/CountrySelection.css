@@ -6,7 +6,11 @@
     font-size: 18px;
     font-weight: 600;
     width: 200px;
+    padding: 5px;
 }
 .country {
     color: #000 !important;
+}
+input {
+    outline: none;
 }

@@ -3,17 +3,24 @@
     display: flex;
     align-items: center;
     margin-bottom: 13px;
-    padding-left: 20rem;
+    padding-left: 13rem;
     margin-left: 25px;
     margin-right: 25px;
 }
+.post_head p {
+    color: #1F527B;
+    font-weight: bold;
+}
 .post_head p, h6 {
+    font-size: 0.75em;
     margin-bottom: 0 !important;
     padding: 6px 15px;
+    font-size: 0.75em;
 }
 .post_head h6 {
-    color: rgb(209 12 12);
-    font-weight: 700;
+    color: #990000;
+    font-weight: bold;
+    font-size: 0.75em;
 }
 @media (max-width: 767.98px) { 
     .post_head {
