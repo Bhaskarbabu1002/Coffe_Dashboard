@@ -590,7 +590,71 @@ function App() {
                     </div>
                   </td>
                 </tr>
+                <tr>
+                  <td className="contract">RMX-21(NOV-21)</td>
+                  <td>2116</td>
 
+                  <td>
+                    <span className="zero">0</span>
+                  </td>
+                  <td>0</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.Screen 18"
+                      />
+                    </div>
+                  </td>
+                  <td>2121</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.123"
+                      />
+                    </div>
+                  </td>
+                  <td>2111</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.123"
+                      />
+                    </div>
+                  </td>
+                  <td>51095</td>
+                  <td>2111</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.123"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <span className="zero">0</span>
+                  </td>
+                  <td>
+                    <span className="zero">0</span>
+                  </td>
+                  <td>
+                    <div>
+                      {/* <img className="delete-icon" src={DeleteIcon} alt="DeleteIcon"/> */}
+                      <DeleteIcon fill={"#ff0000"} />
+                    </div>
+                  </td>
+                </tr>
                 {/* <tr>
       <th scope="row">3</th>
       <td>Larry</td>
@@ -787,6 +851,70 @@ function App() {
                     </div>
                   </td>
                 </tr>
+                <tr>
+                  <td className="contract">RMX-21(NOV-21)</td>
+                  <td>2116</td>
+                  <td>
+                    <span className="zero">0</span>
+                  </td>
+                  <td>0</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.Screen 18"
+                      />
+                    </div>
+                  </td>
+                  <td>2121</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.123"
+                      />
+                    </div>
+                  </td>
+                  <td>2111</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.123"
+                      />
+                    </div>
+                  </td>
+                  <td>51095</td>
+                  <td>2111</td>
+                  <td>
+                    <div className="form-group mb-2">
+                      <input
+                        type="text"
+                        className="form-control work-forms"
+                        id="inputPassword2"
+                        placeholder="Eg.123"
+                      />
+                    </div>
+                  </td>
+                  <td>
+                    <span className="zero">0</span>
+                  </td>
+                  <td>
+                    <span className="zero">0</span>
+                  </td>
+                  <td>
+                    <div>
+                      {/* <img className="delete-icon" src={DeleteIcon} alt="DeleteIcon"/> */}
+                      <DeleteIcon fill={"#ff0000"} />
+                    </div>
+                  </td>
+                </tr>
               </tbody>
             </Table>
           </div>
@@ -808,7 +936,9 @@ function App() {
                   <th scope="col">%</th>
                   <th scope="col">Vol</th>
                   <th scope="col">High</th>
-                  <th scope="col">Low</th>
+                  <th scope="col">$-High</th>
+                  <th scope="col">Low</th>                
+                  <th scope="col">$-Low</th>
                   <th scope="col">Open</th>
                   <th scope="col">Prev</th>
                   <th scope="col">OPen Int</th>
@@ -823,18 +953,20 @@ function App() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="contract">KCH-22(MAR-22)</td>
-                  <td>196.4</td>
+                  <td className="contract">EURUSD</td>
+                  <td>1.15</td>
                   <td>
-                    <span className="zero">0.01</span>
+                    <span className="text-danger font-weight-bold">-0.01</span>
                   </td>
+                  <td>-0.86</td>
+                  <td>44855</td>
+                  <td>1.16</td>
+                  <td>1.16</td>
+                  <td>1.15</td>
+                  <td>1.15</td>
+                  <td>1.16</td>
+                  <td>1.16</td>
                   <td>0</td>
-                  <td>3626</td>
-                  <td>197.85</td>
-                  <td>194.85</td>
-                  <td>195.7</td>
-                  <td>196.4</td>
-                  <td>73521</td>
                   <td>
                     <span className="zero">1.15</span>
                   </td>
@@ -845,10 +977,10 @@ function App() {
                     <span className="zero">1.15</span>
                   </td>
                   <td>
-                    <span className="zero">0.01</span>
+                    <span className="zero">0</span>
                   </td>
-                  <td>10/07/2021</td>
-                  <td>10/07/2021</td>
+                  <td>10/08/2021</td>
+                  <td>10/08/2021</td>
                   <td>
                     <div>
                       {/* <img className="delete-icon" src={DeleteIcon} alt="DeleteIcon"/> */}
@@ -857,16 +989,18 @@ function App() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="contract">KCK-22(MAY-22)</td>
-                  <td>197.55</td>
+                  <td className="contract">USDEUR</td>
+                  <td>0.87</td>
                   <td>0.00</td>
                   <td>0</td>
-                  <td>1677</td>
-                  <td>199</td>
-                  <td>196.1</td>
-                  <td>196.85</td>
-                  <td>197.55</td>
-                  <td>47220</td>
+                  <td>8043</td>
+                  <td>0.87</td>
+                  <td>0.87</td>
+                  <td>0.86</td>
+                  <td>0.86</td>
+                  <td>0.87</td>
+                  <td>0.87</td>
+                  <td>0</td>
                   <td>
                     <span className="zero">0.87</span>
                   </td>
@@ -877,7 +1011,7 @@ function App() {
                     <span className="zero">0.87</span>
                   </td>
                   <td>
-                    <span className="zero">0.01</span>
+                    <span className="zero">0</span>
                   </td>
                   <td>10/07/2021</td>
                   <td>10/07/2021</td>
