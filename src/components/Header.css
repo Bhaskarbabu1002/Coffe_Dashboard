@@ -10,7 +10,21 @@
     font-size: 15px;
 }
 .post_header .nav-link:hover{
-    color: #3498db !important;
+    color: #2163f3 !important;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: -57px;
+    right: 0;
+}
+.post_header .active_nav-link{
+    color: #2163f3 !important;
 }
 #navbar-main {
     padding: unset!important;

@@ -8,7 +8,7 @@
     margin-right: 15px;
 }
 .post_head p {
-    color: #1F527B;
+    color: #2163f3 ;
     font-weight: bold;
 }
 .post_head p, h6 {
@@ -18,8 +18,8 @@
     font-size: 0.75em;
 }
 .post_head h6 {
-    color: #990000;
-    font-weight: bold;
+    color: #ff613c;
+    font-weight: 800;
     font-size: 0.75em;
 }
 @media (max-width: 767.98px) { 

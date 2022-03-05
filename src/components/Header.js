@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import "./Header.css";
 import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  NavLink,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+import {
   DropdownMenu,
   DropdownItem,
   UncontrolledDropdown,
@@ -38,6 +46,8 @@ const Header = () => {
       <div className="post_header">
         <Navbar className="navbar-top navbar-dark" expand="md" id="navbar-main">
           <Container fluid>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+         <Navbar.Collapse id="basic-navbar-nav">
             <ul className="navbar-nav">
               <li className="nav-item ">
                 <a className="nav-link" href="#">
@@ -64,16 +74,25 @@ const Header = () => {
                   </NavDropdown>
                 </a>
               </li>
+              {/* <li className="nav-item">
+              <NavLink activeClassName="active_nav-link" exact to="/" className="nav-link"> Coffee Web</NavLink>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Coffee Web
                 </a>
               </li>
-              <li className="nav-item active coffee-link">
+              <li className="nav-item">
+              <NavLink activeClassName="active_nav-link" exact to="/" className="nav-link"> Coffee Quotes</NavLink>
+                {/* <a className="nav-link" href="#">
+                  Coffee Web
+                </a> */}
+              </li>
+              {/* <li className="nav-item">
                 <a className="nav-link " href="#">
                   Coffee Quotes
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Coffee News Feeds
@@ -173,6 +192,7 @@ const Header = () => {
               </DropdownToggle>
             </UncontrolledDropdown>
           </Nav> */}
+          </Navbar.Collapse>
           </Container>
         </Navbar>
       </div>
